@@ -1,18 +1,18 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn }) => {
   let caption = `
-╭───[Ikratos-MD-v1]───╮
+╭───[Sahan Maduwa]───╮
 │╭────────────────────
 ┴│👋 Hey there, ${conn.getName(m.sender)}!
-⬡│🤖 I'm Ikratos-MD-v1\n⬡│ I'm up and running! 🚀
+⬡│🤖 I'm am Master\n⬡│ I'm up and running! 🚀
 │╰────────────────────
 ┠───[ BOT INFO ]────╮
 │╭────────────────────
-┴│ Ikratos-MD-v1
+┴│ Master Mind
 ⬡│💻 A WhatsApp bot created by:
-⬡│👨‍💻 Ahmad Ali 🇵🇰
+⬡│👨‍💻 Sahan Maduwantha
 ⬡│📞 For any inquiries, contact:
-⬡│📱 wa.me/923470027813
+⬡│📱 wa.me/+94720797915
 ⬡│🙅‍♂️ Don't call the owner or you\'ll be
 ⬡│ ignored or blocked! 😬
 │╰────────────────────
@@ -24,7 +24,7 @@ let handler = async (m, { conn }) => {
 ┬│🔸 .translate \n⬡│- Translates text to other lang
 │╰──────────────
 ╰────────═┅═───────
-*Thank you for choosing Ikratos-MD-v1! 🌟✨*
+*Thank you for choosing Master_Mind BOT! 🌟✨*
 `.trim()
   m.reply(caption)
 }
